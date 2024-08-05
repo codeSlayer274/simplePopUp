@@ -1,0 +1,72 @@
+.close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.closing-button{
+    margin-left: 302px;
+}
+.with-opacity{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+.popUp {
+    visibility: visible;
+    width: 326px;
+    height: 411px;
+    background-color: white;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mainDiv{
+    display: none;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.changeMainDivColor{
+
+    display: block;
+}
+
+
+
+
+.interior{
+    margin: 43px 44px 43px 44px;
+
+}
